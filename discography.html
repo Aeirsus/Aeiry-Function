@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Aeiry Function</title>
+    <!-- Google Analytics -->
+    <!-- Metadata -->
+    <meta name="author" content="Aeirsus">
+    <meta name="description" content="Aeiry Function is a sole proprietorship which aims to provide art, animation, music, and games.">
+    <meta name="viewport" content="width=device-width">
+            
+    <!-- CSS -->
+    <!-- Javascript -->
+</head>
+
+<body>
+    <h1>Discography</h1>
+</body>
+
+</html>
