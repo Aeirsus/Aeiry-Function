@@ -1,0 +1,115 @@
+html {
+    
+}
+body{
+    background-image: url('_img/Aura-Blue Twist.jpg');
+    background-repeat: no-repeat;
+	position: relative;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+.wrapper {
+    margin: 0 210px;
+    width: 990px;
+    position: relative;
+}
+.mascot {
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+}
+.topbar {
+    position: relative;
+}
+#logo, .logo-extension {
+    float: left;
+}
+#sigil {
+    float: right;
+}
+.leftContent{
+    clear: both;
+    position: relative;
+    float: left;
+    top: 47px;
+    width: 800px;
+    background: #999;
+}
+.rightContent{
+    position: relative;
+    float: right;
+    top: 47px;
+    width: 160px;
+    background: #999;
+}
+.icon-links{
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    clear: both;
+    position: relative;
+    top: 50px;
+}
+
+
+#navigation {
+    clear: both;
+    position: relative;
+    top: 1em;
+    height: 60px;
+}
+#web-name{
+    font-family: arial, sans-serif;
+    font-size: 2em;
+    vertical-align: middle;
+    position: relative;
+}
+
+nav{
+    font-family: arial, sans-serif;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    position: relative;
+    float: left;
+}
+nav a:link, nav a:visited {
+    color: #000;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+nav ul li{
+    float: left;
+    padding: 0 1em;
+    display: block;
+}
+nav ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+nav ul li:hover ul{
+    visibility: visible;
+    background: #444;
+}
+nav ul ul li{
+    position: relative;
+    padding: 0.5em;
+    left: -20px;
+}
+#nav_bg{
+    position: absolute;
+    opacity: 0.75;
+}
+.slides li img{
+    height: 500px;
+}
+
+#linkList {
+    visibility: hidden;
+}
+.mascot:hover #linkList{
+    visibility: visible;
+}
