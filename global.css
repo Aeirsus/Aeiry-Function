@@ -87,6 +87,19 @@ nav ul li{
     padding: 0 1em;
     display: block;
 }
+nav ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+nav ul li:hover ul{
+    visibility: visible;
+    background: #444;
+}
+nav ul ul li{
+    position: relative;
+    padding: 0.5em;
+    left: -50px;
+}
 
 #nav_bg{
     position: absolute;
