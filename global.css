@@ -62,8 +62,8 @@ footer{
 #web-name{
     font-family: arial, sans-serif;
     font-size: 2em;
-    vertical-align: middle;
-    position: relative;
+    position: absolute;
+    left: 10px;
 }
 
 nav{
@@ -71,7 +71,8 @@ nav{
     font-size: 0.7em;
     text-transform: uppercase;
     position: relative;
-    float: left;
+    float: right;
+    right: 70px;
 }
 nav a:link, nav a:visited {
     color: #000;
@@ -86,19 +87,7 @@ nav ul li{
     padding: 0 1em;
     display: block;
 }
-nav ul ul{
-    position: absolute;
-    visibility: hidden;
-}
-nav ul li:hover ul{
-    visibility: visible;
-    background: #444;
-}
-nav ul ul li{
-    position: relative;
-    padding: 0.5em;
-    left: -50px;
-}
+
 #nav_bg{
     position: absolute;
     opacity: 0.75;
